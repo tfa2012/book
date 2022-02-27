@@ -1,6 +1,6 @@
-# The Rust Code of Conduct
+# The Rust Code of Conduct - Rust的行为准则
 
-## Conduct
+## Conduct - 准则
 
 **Contact**: [Resources team][team]
 
@@ -13,7 +13,12 @@
 * Private harassment is also unacceptable. No matter who you are, if you feel you have been or are being harassed or made uncomfortable by a community member, please contact one of the channel ops or any of the [Resources team][team] immediately. Whether you're a regular contributor or a newcomer, we care about making this community a safe place for you and we've got your back.
 * Likewise any spamming, trolling, flaming, baiting or other attention-stealing behavior is not welcome.
 
-## Moderation
+**联系**: [资源团队][team]
+
+- 我们致力于为所有人提供友好、安全和舒适的环境，无论他们的经验水平、性别认同和表达、性取向、身体是否残疾、个人外貌、体型、种族、民族、年龄、宗教、国籍或其他类似特征如何。
+- 在IRC频道上，请避免使用公开的性昵称或其他可能有损于所有人友好、安全和友好环境的昵称。
+
+## Moderation - 节制
 
 These are the policies for upholding our community's standards of conduct.
 
@@ -25,6 +30,8 @@ These are the policies for upholding our community's standards of conduct.
 6. Moderators may choose at their discretion to un-ban the user if it was a first offense and they offer the offended party a genuine apology.
 7. If a moderator bans someone and you think it was unjustified, please take it up with that moderator, or with a different moderator, **in private**. Complaints about bans in-channel are not allowed.
 8. Moderators are held to a higher standard than other community members. If a moderator creates an inappropriate situation, they should expect less leeway than others.
+
+
 
 In the Rust community we strive to go the extra step to look out for each other. Don't just aim to be technically unimpeachable, try to be your best self. In particular, avoid flirting with offensive or sensitive issues, particularly if they're off-topic; this all too often leads to unnecessary fights, hurt feelings, and damaged trust; worse, it can drive people away from the community entirely.
 
