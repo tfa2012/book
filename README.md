@@ -12,7 +12,7 @@ See [the issue tracker] for more details. This book is a living document, and is
 
 这个项目由[资源团队][team]开发和维护。
 
-点击[the issue tracker]查看更多详细信息。这本书是一个在线文档，会持续更新。 
+点击[the issue tracker]查看更多详细信息。这本书是一个在线文档，会持续更新。
 
 [the issue tracker]: https://github.com/rust-embedded/book/issues
 
