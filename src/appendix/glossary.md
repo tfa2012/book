@@ -1,8 +1,10 @@
-# Appendix A: Glossary
+# Appendix A: Glossary - 附录A：词汇表
 
 The embedded ecosystem is full of different protocols, hardware components and
 vendor-specific things that use their own terms and abbreviations. This Glossary
 attempts to list them with pointers for understanding them better.
+
+嵌入式生态系统中充满着不同的协议、硬件组件和各供应商自定义的things。本词汇表尝试列举出一些重点出来，以便更好地理解它们。
 
 ### BSP
 
@@ -11,9 +13,13 @@ board. It usually depends on a [HAL](#hal) crate.
 There is a more detailed description on the [memory-mapped registers page](../start/registers.md)
 or for a broader overview see [this video](https://youtu.be/vLYit_HHPaY).
 
+电路板支持库crate是某个特定电路板的高层接口库。通常它依赖于HAL crate。[memory-mapped registers page](../start/registers.md)这篇文章有更加详细的描述，或者看这个视频[本视频](https://youtu.be/vLYit_HHPaY)。
+
 ### FPU
 
 Floating-point Unit. A 'math processor' running only operations on floating-point numbers.
+
+浮点运算单元。仅用于计算浮点数操作的“数学处理器”。
 
 ### HAL
 
@@ -22,6 +28,8 @@ features and peripherals. It is usually implemented on top of a [Peripheral Acce
 It may also implement traits from the [`embedded-hal`](https://crates.io/crates/embedded-hal) crate.
 There is a more detailed description on the [memory-mapped registers page](../start/registers.md)
 or for a broader overview see [this video](https://youtu.be/vLYit_HHPaY).
+
+硬件抽象层
 
 ### I2C
 
