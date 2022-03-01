@@ -1,13 +1,19 @@
-# Introduction
+# Introduction - 介绍
 
 Welcome to The Embedded Rust Book: An introductory book about using the Rust
 Programming Language on "Bare Metal" embedded systems, such as Microcontrollers.
 
-## Who Embedded Rust is For
+欢迎阅读嵌入式Rust之书—一本介绍如何使用Rust编程语言编写嵌入式裸机系统的书，如微控制器。
+
+## Who Embedded Rust is For - 嵌入式Rust为谁而准备
 Embedded Rust is for everyone who wants to do embedded programming while taking advantage of the higher-level concepts and safety guarantees the Rust language provides.
 (See also [Who Rust Is For](https://doc.rust-lang.org/book/ch00-00-introduction.html))
 
-## Scope
+嵌入式Rust之书适用于所有想用它进行嵌入式编程的人，Rust语言为嵌入式提供了更高级概念和安全保障。
+
+（也可以看[Rust可用于什么地方](https://doc.rust-lang.org/book/ch00-00-introduction.html)）
+
+## Scope - 范围
 
 The goals of this book are:
 
@@ -27,7 +33,13 @@ examples. However, the book doesn't assume that the reader is familiar with this
 particular architecture and explains details particular to this architecture
 where required.
 
-## Who This Book is For
+本书的目标：
+
+- 加速开发者搭建开发环境。
+- 分享Rust当前在嵌入式开发中的最佳实践，即如何正确使用Rust语言的特性编写出嵌入式软件。
+- 在某些情况下它也可用作Cookbook，比如如何在一个项目中混合使用C和Rust语言。
+
+## Who This Book is For - 这本书为谁而准备
 This book caters towards people with either some embedded background or some Rust background, however we believe
 everybody curious about embedded Rust programming can get something out of this book. For those without any prior knowledge
 we suggest you read the "Assumptions and Prerequisites" section and catch up on missing knowledge to get more out of the book

@@ -1,4 +1,4 @@
-# The Embedded Rust Book - Rust嵌入式之书
+# The Embedded Rust Book - 嵌入式Rust之书
 
 > Documentation on how to use the Rust Programming Language to develop firmware for bare metal (microcontroller) devices
 >
@@ -35,7 +35,7 @@ Copies of the licenses used by this project may also be found here:
 * [Apache License v2.0 Hosted]
 * [CC-BY-SA v4.0 Hosted]
 
-Rust嵌入式之书（本项目）由以下许可证发布：
+嵌入式Rust之书（本项目）由以下许可证发布：
 
 - 书中带的代码样例和独立的Cargo项目是由[MIT License]和[Apache License v2.0]许可。
 - 书中写的散文是由[CC-BY-SA v4.0]许可。
