@@ -57,7 +57,7 @@ Copies of the licenses used by this project may also be found here:
 
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the Apache-2.0 license, shall be licensed as above, without any additional terms or conditions.
 
- 除非您明确声明，否则根据Apache-2.0许可证中的定义，您有意提交以包含在作品中的任何贡献均应获得上述许可，无需任何附加条款或条件。 
+ 除非您明确声明，否则根据Apache-2.0许可证中的定义，您有意提交以包含在作品中的任何贡献均应获得上述许可，无需任何附加条款或条件。  
 
 ## Code of Conduct - 行为准则
 
