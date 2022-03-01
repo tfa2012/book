@@ -37,7 +37,7 @@ Copies of the licenses used by this project may also be found here:
 
 嵌入式Rust之书（本项目）由以下许可证发布：
 
-- 书中带的代码样例和独立的Cargo项目是由[MIT License]和[Apache License v2.0]许可。
+- 书中带的代码样例和独立的Cargo项目是由[MIT许可证]和[Apache License v2.0]许可。
 - 书中写的散文是由[CC-BY-SA v4.0]许可。
 
 本项目的许可证可以点击下面链接查看：
