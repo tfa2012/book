@@ -29,12 +29,16 @@ It may also implement traits from the [`embedded-hal`](https://crates.io/crates/
 There is a more detailed description on the [memory-mapped registers page](../start/registers.md)
 or for a broader overview see [this video](https://youtu.be/vLYit_HHPaY).
 
-硬件抽象层
+硬件抽象层crate给开发人员提供了访问微控制器的功能和外设的友好接口。这层通常在[Peripheral Access Crate (PAC)](#pac)上实现，也可能在[`embedded-hal`](https://crates.io/crates/embedded-hal)crate的基础上实现。
+
+[memory-mapped registers page](../start/registers.md)这篇文章有更加详细的描述，或者看这个视频[本视频](https://youtu.be/vLYit_HHPaY)。
 
 ### I2C
 
 Sometimes referred to as `I²C` or Inter-IC. It is a protocol meant for hardware communication
 within a single integrated circuit. See [here][i2c] for more details
+
+I2C又叫做`I²C`或者Inter-IC。它是一种在单一集成电路内用于硬件通信的协议。这篇[文章][i2c]有更详细的说明。
 
 [i2c]: https://en.wikipedia.org/wiki/I2c
 
