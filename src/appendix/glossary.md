@@ -13,7 +13,7 @@ board. It usually depends on a [HAL](#hal) crate.
 There is a more detailed description on the [memory-mapped registers page](../start/registers.md)
 or for a broader overview see [this video](https://youtu.be/vLYit_HHPaY).
 
-电路板支持库crate是某个特定电路板的高层接口库。通常它依赖于HAL crate。[memory-mapped registers page](../start/registers.md)这篇文章有更加详细的描述，或者看这个视频[本视频](https://youtu.be/vLYit_HHPaY)。
+电路板支持库crate（Board Support Crate）是某个特定电路板的高层接口库。通常它依赖于HAL crate。[memory-mapped registers page](../start/registers.md)这篇文章有更加详细的描述，或者看这个[视频](https://youtu.be/vLYit_HHPaY)。
 
 ### FPU
 
@@ -31,7 +31,7 @@ or for a broader overview see [this video](https://youtu.be/vLYit_HHPaY).
 
 硬件抽象层crate给开发人员提供了访问微控制器的功能和外设的友好接口。这层通常在[Peripheral Access Crate (PAC)](#pac)上实现，也可能在[`embedded-hal`](https://crates.io/crates/embedded-hal)crate的基础上实现。
 
-[memory-mapped registers page](../start/registers.md)这篇文章有更加详细的描述，或者看这个视频[本视频](https://youtu.be/vLYit_HHPaY)。
+[memory-mapped registers page](../start/registers.md)这篇文章有更加详细的描述，或者看这个[视频](https://youtu.be/vLYit_HHPaY)。
 
 ### I2C
 
@@ -51,6 +51,8 @@ would usually depend on this crate.
 There is a more detailed description on the [memory-mapped registers page](../start/registers.md)
 or for a broader overview see [this video](https://youtu.be/vLYit_HHPaY).
 
+外设访问Crate（Peripheral Access Crate）提供对微控制器的外设访问接口。这是底层crate之一，通常直接由SVD生成，比如svd2rust工具。HAL依赖于PAC。[memory-mapped registers page](../start/registers.md)这篇文章有更加详细的描述，或者看这个[视频](https://youtu.be/vLYit_HHPaY)。
+
 ### SPI
 
 Serial Peripheral Interface. See [here][spi] for more information.
@@ -62,6 +64,8 @@ Serial Peripheral Interface. See [here][spi] for more information.
 System View Description is an XML file format used to describe the programmers view of a
 microcontroller device. You can read more about it on
 [the ARM CMSIS documentation site](https://www.keil.com/pack/doc/CMSIS/SVD/html/index.html).
+
+系统视图描述（System View Description）是一个XML文件格式，是站在编译工具的角度上描述微控制器的组成。可以看[the ARM CMSIS documentation site](https://www.keil.com/pack/doc/CMSIS/SVD/html/index.html)了解更详细的信息。
 
 ### UART
 

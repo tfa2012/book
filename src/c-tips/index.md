@@ -1,8 +1,10 @@
-# Tips for embedded C developers
+# Tips for embedded C developers - 给嵌入式开发人员的提示
 
 This chapter collects a variety of tips that might be useful to experienced
 embedded C developers looking to start writing Rust. It will especially
 highlight how things you might already be used to in C are different in Rust.
+
+本章节内容是为那些具有一定的C开发经验并欲转到Rust的人而准备的。特别需要主要的是您在C语言中习以为常的，在Rust的表现则可能会大相径庭。
 
 ## Preprocessor
 
