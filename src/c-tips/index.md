@@ -19,6 +19,14 @@ In Rust there is no preprocessor, and so many of these use cases are addressed
 differently. In the rest of this section we cover various alternatives to
 using the preprocessor.
 
+在嵌入式C语言中，经常会用预处理器达到几个目的：
+
+- 使用`#ifdef`来在编译时期选择性编译代码
+- 编译时期的确定数组大小和数值计算
+- 函数宏，避免函数调用造成性能损耗
+
+在Rust中没有预编译器，所以上述的几个特性在Rust中有不同的形式。在本节的其余部分中，我们将介绍预处理器的各种替代方法。
+
 ### Compile-Time Code Selection
 
 The closest match to `#ifdef ... #endif` in Rust are [Cargo features]. These

@@ -1,6 +1,8 @@
-# Meet Your Hardware
+# Meet Your Hardware - 看看硬件
 
 Let's get familiar with the hardware we'll be working with.
+
+让我们先熟悉一下我们要用得硬件。
 
 ## STM32F3DISCOVERY (the "F3")
 
@@ -37,3 +39,23 @@ What does this board contain?
 For a more detailed list of features and further specifications of the board take a look at the [STMicroelectronics](https://www.st.com/en/evaluation-tools/stm32f3discovery.html) website.
 
 A word of caution: be careful if you want to apply external signals to the board. The microcontroller STM32F303VCT6 pins take a nominal voltage of 3.3 volts. For further information consult the [6.2 Absolute maximum ratings section in the manual](https://www.st.com/resource/en/datasheet/stm32f303vc.pdf)
+
+
+
+这块板有什么？
+
+- 一个[STM32F303VCT6](https://www.st.com/en/microcontrollers/stm32f303vc.html)微控制器。这个控制器有：
+  - 一颗支持单精度浮点运算的ARM Cortex-M4F处理器，最大运行速度为72MHz。
+  - 256KB Flash
+  - 48KB RAM
+  - 集成多种外设，如定时器，I2C，SPI和USART。
+  - GPIO和其它类型的引脚可以通过板两边的两排端子对接。
+  - 通过标记为“USB USER”的接口与微控制器的USB外设通讯。
+- 芯片[LSM303DLHC](https://www.st.com/en/mems-and-sensors/lsm303dlhc.html)包含有：加速度计和磁力计
+- 芯片[L3GD20](https://www.pololu.com/file/0J563/L3GD20.pdf)包含有：陀螺仪
+- 8个LED等排列成一个指南针样子
+- 另一个微控制器：[STM32F103](https://www.st.com/en/microcontrollers/stm32f103cb.html)。这个微控制器实际上是一个板上的编程器/调试器，使用名为“USB ST-LINK”的USB端口通讯。
+
+可以查看[STMicroelectronics](https://www.st.com/en/evaluation-tools/stm32f3discovery.html)网页了解这块板更加详细的信息。
+
+需要提醒一句：如果您要加载信道到开发板上，请一定要加倍小心。微控制器STM32F303VCT6引脚的典型操作电压为3.3V。欲了解更多信息，请参考[手册中6.2最大绝对额定值](https://www.st.com/resource/en/datasheet/stm32f303vc.pdf)
